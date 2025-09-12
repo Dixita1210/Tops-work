@@ -1,1 +1,0 @@
-In Python, negative indexes allow you to access elements from the end of a sequence like a string or list.
