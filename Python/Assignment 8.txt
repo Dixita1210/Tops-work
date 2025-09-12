@@ -1,3 +1,0 @@
-
-
-The continue statement in Python is used to skip the current loop iteration and move to the next one.
