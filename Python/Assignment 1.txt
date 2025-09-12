@@ -1,0 +1,8 @@
+1. Database Applications: Applications focused on storing, managing, and retrieving structured data.
+   2. Custom Applications: Fully tailored software solutions built to meet specific business needs.
+   3. Web-Based Applications: Apps accessed through web browsers without requiring installation.
+   4. Low-Code Applications: Apps developed using minimal hand-coding via visual development platforms.
+   5. No-Code Applications: Apps built entirely without code, often by non-developers using drag-and-drop tools.
+   6. Enterprise Applications: Large-scale systems designed to support core functions in large organizations.
+   7. Mobile Applications: Software designed specifically for smartphones and tablets.
+   8. Desktop Applications: Programs installed and run on personal computers.

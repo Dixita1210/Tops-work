@@ -1,0 +1,7 @@
+
+
+   Python is a high-level, interpreted programming language that is:
+   Easy to learn and read
+   Versatile – used for web development, data analysis, machine learning, automation, etc.
+   Open-source and has a large community
+   Cross-platform – runs on Windows, Mac, and Linux 

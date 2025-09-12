@@ -1,0 +1,3 @@
+Memory in python is stored in two ways- Heap memory and stack memory.
+Heap Memory stores primitive data/temporary data. 
+stack memory stores object/long term data.

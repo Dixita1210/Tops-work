@@ -1,0 +1,6 @@
+str=input('Enter a string-')
+substr=input('Enter a substring to be count-')
+count=str.count(substr)
+print(f'The substring {substr} occurs {count} times in string')
+print(count)
+print(str.count(substr))
