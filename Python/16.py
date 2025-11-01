@@ -1,3 +1,6 @@
+16) Write a Python program to count the number of characters 
+(character frequency) in a string 
+
 # str1 = 'Dixita'
 
 # print("D:", str1.count('D'))
@@ -12,4 +15,5 @@ dict_freq={}
 for i in str1:
     dict_freq[i]=str1.count(i)
 print(dict_freq)
+
 
