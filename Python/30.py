@@ -1,3 +1,5 @@
+30) How will you compare two lists? 
+
 lst1=[1,2,3,4]
 lst2=[4,5,6,7]
 
@@ -11,5 +13,6 @@ print(lst_new)
 
 lst_new=set(lst2).difference(set(lst1))
 print(lst_new)
+
 
 
