@@ -1,1 +1,3 @@
+17) What are negative indexes and why are they used?
+
 In Python, negative indexes allow you to access elements from the end of a sequence like a string or list.
