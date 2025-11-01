@@ -1,3 +1,5 @@
+6) Write a Python program to get the Fibonacci series of given range. 
+
 num=int(input("Enter a number-"))
 a=0
 b=1
@@ -11,3 +13,4 @@ for i in range(1,num+1):
     a=b
     b=c
     print(c)
+
