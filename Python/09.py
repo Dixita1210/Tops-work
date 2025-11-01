@@ -1,3 +1,6 @@
+9) Write python program that swap two number with temp variable 
+and without temp variable.
+
 #Swap with using temp variable 
 x=12
 y=13
@@ -13,3 +16,4 @@ y=13
 x,y=y,x
 print("The value of x is", x)
 print('The value of y is', y)
+
