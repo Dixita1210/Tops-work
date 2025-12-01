@@ -1,0 +1,10 @@
+A tuple is an ordered immutable collection of elements (cannot be changed after creation).
+It is defined using round brackets ( ).
+
+Feature	                               List	                                               Tuple
+Definition	                          Ordered, mutable collection	                Ordered, immutable collection
+Syntax	                          Defined using [ ]	                      Defined using ( )
+Mutability	                          Can be changed (add/remove/update)	    Cannot be changed once created
+Performance	                          Slower (mutable)	                      Faster (immutable)
+Methods 	                          Many (append, remove, pop, etc.)	          Few (count, index)
+Use case	                          When data may need to be modified	          When data must remain constant
