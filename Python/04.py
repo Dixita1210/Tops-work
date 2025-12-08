@@ -1,5 +1,4 @@
-4) Write a Python program to check if a number is positive, negative or 
-zero. 
+#4) Write a Python program to check if a number is positive, negative or zero. 
 
 num=int(input('Enter a number-'))
 if num>0:
@@ -8,4 +7,5 @@ elif num<0:
     print('Negative')
 else:
     print('Zero')
+
 
