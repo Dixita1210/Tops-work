@@ -1,11 +1,16 @@
 29) Write a Python function to get the largest number, smallest num 
 and sum of all from a list. 
 
-lst_num=[3,67,89,236,56]
-largest = max(lst_num)
-smallest = min(lst_num)
-total = sum(lst_num)
-print(largest)
-print(smallest)
-print(total)
+def list_stats(numbers):
+    largest = max(numbers)      
+    smallest = min(numbers)     
+    total = sum(numbers)       
+    
+    return largest, smallest, total
+
+
+nums = [10, 5, 30, 2, 50]
+print(list_stats(nums))
+
+
 
