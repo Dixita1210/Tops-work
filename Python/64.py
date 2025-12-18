@@ -3,10 +3,8 @@
 
 
 def is_palindrome(s):
-    if s == s[::-1]: #reverse slicing 
-        return True
-    else:
-        return False
+    s = "".join(ch for ch in s.lower() if ch.isalnum()) #remove space and punchuation and convert to lowercase 
+    return s == s[::-1] #reverse slicing 
 
 word = input("Enter a string: ")
 
@@ -14,10 +12,3 @@ if is_palindrome(word):
     print(f"'{word}' is a palindrome")
 else:
     print(f"'{word}' is not a palindrome")
-
-string_input = input("Enter a string: ")
-if string_input== string_input[::-1]:
-    print(f'{string_input} is a palindrome')
-
-else:
-    print(f'{string_input} is a not palindrome')
