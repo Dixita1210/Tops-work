@@ -1,3 +1,6 @@
+43) What is tuple? Difference between list and tuple.
+
+
 A tuple is an ordered immutable collection of elements (cannot be changed after creation).
 It is defined using round brackets ( ).
 
@@ -7,4 +10,5 @@ Syntax	                          Defined using [ ]	                      Defined
 Mutability	                          Can be changed (add/remove/update)	    Cannot be changed once created
 Performance	                          Slower (mutable)	                      Faster (immutable)
 Methods 	                          Many (append, remove, pop, etc.)	          Few (count, index)
+
 Use case	                          When data may need to be modified	          When data must remain constant
