@@ -2,23 +2,23 @@
 
 import pandas as pd
 banks=pd.read_csv("C:\\Users\\sanja\\OneDrive\\Desktop\\Banklist.csv")
-# print(banks)
+print(banks)
 
 # 2) Show the head of the dataframe.
 
-# print(banks.head())
+ print(banks.head())
 
-# What are the column names?
+# 3) What are the column names?
 
-# print(banks.info())
+print(banks.info())
 
-# How many States (ST) are represented in this data set?
+# 4) How many States (ST) are represented in this data set?
 
-# print(len(banks["ST"].unique()))
+ print(len(banks["ST"].unique()))
 
-# Get a list or array of all the states in the data set.
+# 5) Get a list or array of all the states in the data set.
 
-# print(banks["ST"].unique())
+ print(banks["ST"].unique())
 
 
 
