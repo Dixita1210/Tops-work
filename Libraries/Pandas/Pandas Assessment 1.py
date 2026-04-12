@@ -128,6 +128,40 @@ df['Date'] = pd.to_datetime(df['Date'], format='%d-%m-%Y')
 
 # print( df['Corporate Profits (Billion USD)'].mean())
 
+#Insight Analysis Questions 
+
+# . What percentage of the dataset shows negative GDP growth?
+
+
+neg_gdp = (df['GDP Growth'] < 0).sum()
+total = len(df)
+percentage = (neg_gdp / total) * 100
+print( percentage)
+
+
+# Does high inflation correspond to higher interest rates?
+
+corr = df.corr(numeric_only=True)
+
+print(corr)
+#No because its 0.006 which is small
+
+# Is there a relationship between unemployment and consumer spending?
+print( corr['Unemployment Rate (%)']['Consumer Spending (Billion USD)'])
+#NO relationship
+
+# Do higher corporate profits align with higher consumer confidence?
+print(corr['Corporate Profits']['Consumer Confidence'])
+#no relationship
+
+#What’s the trend of crude oil prices over time?
+
+
+
+
+
+
+
 
 
 
