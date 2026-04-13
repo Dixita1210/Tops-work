@@ -155,6 +155,72 @@ print(corr['Corporate Profits']['Consumer Confidence'])
 #no relationship
 
 #What’s the trend of crude oil prices over time?
+x = np.arange(len(df))
+
+y = df['Crude Oil Price (USD per Barrel)']
+
+
+plt.plot(x, y)
+
+
+plt.title("Trend of Crude Oil Prices Over Time")
+plt.xlabel("Time")
+plt.ylabel("Crude Oil Price (USD per Barrel)")
+
+
+plt.show()
+
+#Are gold prices inversely related to stock performance?
+
+print(corr['Gold Price (USD per Ounce)']['Close Price'])
+
+#no 
+# Does government debt impact consumer confidence?
+
+print( corr['Government Debt (Billion USD)']['Consumer Confidence Index'])
+#NO
+
+#How do mergers & acquisitions (M&A) activity correlate with stock index closing prices?
+
+print( corr['Mergers & Acquisitions Deals']['Close Price'])
+
+#Is retail sales growth associated with GDP growth?
+
+print( corr['Retail Sales (Billion USD)']['GDP Growth (%)'])
+#NO
+
+#Is stock market performance linked to consumer spending?
+
+print( corr['Close Price']['Consumer Spending (Billion USD)'])
+#NO
+
+# Which stock index had the highest average closing price?
+
+avg_close = df.groupby('Stock Index')['Close Price'].mean()
+print( avg_close.idxmax())
+
+ # What is the relationship between interest rate and unemployment?
+
+print( corr['Interest Rate (%)']['Unemployment Rate (%)'])
+#No relation
+
+#Do lower consumer confidence values coincide with higher bankruptcy rates?
+
+print( corr['Consumer Confidence Index']['Bankruptcy Rate (%)'])
+
+#NO
+
+#Which indicator has the highest correlation with stock close price?
+
+print( corr['Close Price'].sort_values(ascending=False))
+
+#Are unemployment rates lower when corporate profits are high?
+
+print( corr['Unemployment Rate (%)']['Corporate Profits (Billion USD)'])
+
+#NO
+
+
 
 
 
